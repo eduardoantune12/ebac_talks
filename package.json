@@ -2,18 +2,23 @@
   "name": "mod_22_landing_page_evento_programado",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
+    "dev": "parcel src/index.html src/styles/first.scss src/scripts/first.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoantune12/ebac_talks.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/eduardoantune12/ebac_talks/issues"
+  },
+  "homepage": "https://github.com/eduardoantune12/ebac_talks#readme",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.0",
-    "parcel": "^2.8.0",
-    "sharp": "^0.31.3"
+    "parcel": "^2.14.4"
   }
 }
