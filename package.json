@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "parcel src/index.html src/styles/first.scss src/scripts/first.js",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/eduardoantune12/ebac_talks#readme",
   "devDependencies": {
-    "parcel": "^2.14.4"
+    "parcel": "^2.14.4",
+    "svgo": "^3.3.2"
   }
 }
